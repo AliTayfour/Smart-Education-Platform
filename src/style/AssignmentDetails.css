@@ -1,0 +1,188 @@
+/* General styles */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Assignment details container */
+.assignment-details-container {
+    padding-top: 100px;
+}
+
+/* Header styles */
+.assignment-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.assignment-header h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.assignment-info {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Content styles */
+.assignment-content {
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.assignment-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    border-left: 4px solid #007bff;
+    /* Adding a left border for emphasis */
+    padding-left: 10px;
+    /* Adding padding to the left of the description */
+    background-color: #f4f4f4;
+    /* Adding a light background color */
+    border-radius: 5px;
+    /* Adding border radius for rounded corners */
+}
+
+/* Attachment styles */
+.attachment {
+    margin-top: 20px;
+}
+
+.attachment h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.file-link {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: 10px;
+}
+
+.file-link:hover {
+    color: #0056b3;
+}
+
+.file-preview {
+    font-family: monospace;
+    /* Use monospace font for file preview */
+    background-color: #f4f4f4;
+    /* Light gray background for file preview */
+    padding: 10px;
+    /* Add padding for better readability */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+}
+
+/* File box styles */
+.file-box {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-box label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.file-info {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #f4f4f4;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progress {
+    background-color: #007bff;
+    color: #fff;
+    width: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 0.3s ease;
+}
+
+.file-upload button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.file-upload button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.upload-success {
+    color: green;
+    /* Green color for success message */
+    margin-top: 10px;
+}
+
+.input-file {
+    display: none;
+
+}
+
+.file-display {
+    color: blue;
+    /* تعيين لون الرابط إلى الأزرق */
+    text-decoration: none;
+    /* إزالة التزيين الافتراضي للرابط */
+}
+
+.file-display:hover {
+    text-decoration: underline;
+    /* إضافة خط تحت الرابط عند تحويل الماوس إليه */
+}
+
+.past-due-message {
+    background-color: #ffcccc; /* لون الخلفية */
+    color: #cc0000; /* لون النص */
+    padding: 10px; /* هوامش داخلية */
+    border: 1px solid #cc0000; /* حدود */
+    border-radius: 5px; /* تدوير الحواف */
+    font-weight: bold; /* نص غامق */
+}
+
+
+.back-button {
+    flex-grow: 1;
+    /* Expand to fill available space */
+    margin-right: 10px;
+    /* Add some space between buttons */
+}
+
+.back-button a {
+    color: #fff;
+}
+.back-button:hover {
+    text-decoration: underline;
+}

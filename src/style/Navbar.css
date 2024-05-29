@@ -1,0 +1,118 @@
+.header-section {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    /* ارتفاع الهيدر بعد الانزلاق */
+    background-color: #87CEEB;
+    transition: top 0.8s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.content-section {
+    margin-top: 80px;
+    /* تعويض لارتفاع الهيدر بعد الانزلاق */
+}
+
+.header-section.slide-down {
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-section.slide-up {
+    top: -80px;
+    /* ارتفاع الهيدر الأصلي */
+}
+
+
+.menu-banner {
+    width: 77%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-banner .menu-banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-banner:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-modal button.close {
+    background-color: #756b6b;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.search-modal button.close:hover {
+    background-color: #cd3737;
+}
+
+.search-modal button.close::before,
+.search-modal button.close::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: background-color 0.3s ease;
+}
+
+.search-modal button.close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.action-color--black .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    color: inherit;
+    /* Use the color from the parent element */
+    color: rgb(35, 32, 32);
+    /* Change the color to black */
+}
+
+.flex-container {
+    display: flex;
+    /* Use flexbox layout */
+    align-items: center;
+    /* Align items vertically in the center */
+}
+
+.flex-container li {
+    margin-right: 15px;
+    /* Add margin between list items */
+}
+
+.flex-container li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last list item */
+}
+
+.icon-magnifier {
+    font-size: 18px;
+    /* Increase the font size of the search icon */
+}

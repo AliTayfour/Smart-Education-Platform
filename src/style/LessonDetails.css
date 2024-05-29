@@ -1,0 +1,192 @@
+.lesson-details-container {
+    display: flex;
+  }
+  
+  .course-info {
+    flex: 1;
+  }
+  
+  .course-image img {
+    max-width: 100%;
+  }
+  
+  .course-image p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .course-image span {
+    color: red;
+  }
+  
+  .lesson-content {
+    flex: 2;
+  }
+  
+  .lesson-content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lesson-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .lesson-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* في ملف style/LessonDetails.css */
+
+.sidebar-single-widget {
+  margin-bottom: 30px;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.section-button {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.section-button:hover {
+  background-color: #eaeaea;
+}
+
+.section-button i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+
+
+.lesson-list a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.lesson-list a:hover {
+  color: #333;
+}
+/* في ملف style/LessonDetails.css */
+/* في ملف style/LessonDetails.css */
+
+
+
+.assignment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.assignment-list li {
+  margin-bottom: 10px;
+}
+
+.assignment-list a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid #c4bfbf; 
+  transition: color 0.3s ease;
+}
+
+.assignment-list a:hover {
+  color: #333;
+}
+
+.video-wrapper {
+  position: relative;
+}
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.video-controls button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.video-controls button:hover {
+  color: #ff9900;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* قيمة أعلى من الفيديو */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.play-button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}

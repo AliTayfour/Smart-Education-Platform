@@ -1,0 +1,474 @@
+/* About section */
+body {
+  overflow-y: auto; /* تمكين التمرير العمودي عند الحاجة */
+  font-family: 'Montserrat', sans-serif; /* تحديد الخط الأساسي */
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  padding: 0; /* إزالة التباعد الافتراضي */
+  box-sizing: border-box; /* تأكيد استخدام موديل الصندوق */
+}
+
+.about {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  /* Update with your preferred background color */
+}
+
+.col-lg-6.order-1.order-lg-2 {
+  position: relative;
+  /* Ensure positioning context for absolute positioning */
+}
+
+.col-lg-6.order-1.order-lg-2 img {
+  width: 100%;
+  /* Ensure the image fills its container */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 12px;
+  /* Rounded corners */
+  overflow: hidden;
+  /* Hide overflow for overlay */
+  transition: transform 0.3s ease;
+  /* Add transition for smooth hover effect */
+  border: 4px solid transparent;
+  /* Transparent border initially */
+}
+
+.col-lg-6.order-1.order-lg-2 img:hover {
+  transform: scale(1.05);
+  /* Scale up the image on hover */
+  border-color: #ffc451;
+  /* Add border color on hover */
+}
+
+/* Additional styles for image caption */
+.col-lg-6.order-1.order-lg-2 .image-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  /* Text color */
+  font-size: 18px;
+  /* Font size */
+  font-weight: bold;
+  /* Font weight */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  /* Text shadow for contrast */
+  z-index: 1;
+  /* Ensure caption is above overlay */
+  opacity: 0;
+  /* Hide caption initially */
+  transition: opacity 0.3s ease;
+  /* Fade in transition */
+}
+
+.col-lg-6.order-1.order-lg-2:hover .image-caption {
+  opacity: 1;
+  /* Fade in caption on hover */
+}
+
+
+.about .content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about .content p,
+.about .content ul li {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  /* Adjust line height for better readability */
+}
+
+.about .content ul li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #555;
+  /* Update with your preferred color */
+  letter-spacing: 0.5px;
+  /* Add letter spacing for a sophisticated look */
+}
+
+.about .content ul li:before {
+  font-size: 20px;
+  /* Increase font size */
+  position: absolute;
+  left: 0;
+  color: #ffc44e;
+  /* Update with your preferred color */
+}
+
+.about .content img {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  /* Add transition for smooth hover effect */
+}
+
+.about .content img:hover {
+  transform: scale(1.05);
+  /* Scale up the image on hover */
+}
+
+/* Additional styles for advanced image design */
+.image-box {
+  width: 100%;
+  height: 300px;
+  /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+  /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Box shadow for a subtle effect */
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+/* About section */
+.about {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  /* Update with your preferred background color */
+}
+
+.about .content h3 {
+  font-size: 28px;
+  color: #333;
+  /* Update with your preferred color */
+  margin-bottom: 20px;
+}
+
+.about .content p {
+  font-size: 16px;
+  color: #555;
+  /* Update with your preferred color */
+  margin-bottom: 20px;
+}
+
+.about .content ul {
+  list-style: none;
+  /* Remove default list style */
+  padding-left: 20px;
+  /* Adjust left padding */
+}
+
+.about .content ul li {
+  position: relative;
+  font-size: 18px;
+  /* تغيير حجم النص حسب الحاجة */
+  color: #333;
+  /* تغيير لون النص حسب الحاجة */
+  margin-bottom: 10px;
+  /* تعديل التباعد بين العناصر حسب الحاجة */
+}
+
+.about .content ul li:before {
+  content: "\2022";
+  /* Bullet character */
+  position: absolute;
+  left: -20px;
+  /* زيادة المسافة بين النقطة والنص */
+  color: #ffc451;
+  /* تغيير لون النقطة */
+  font-size: 30px;
+  /* تكبير حجم النقطة */
+}
+
+.about .content img {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: -60px;
+  /* Button starts below the screen */
+  right: 20px;
+  background-color: #07e069;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  /* Reduce button size */
+  height: 40px;
+  /* Reduce button size */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  /* Button starts fading out */
+  animation: fadeInUp 0.9s forwards;
+  /* Fade-in effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  /* Button shadow */
+  outline: none;
+  /* Remove focus outline */
+}
+
+.scroll-to-top:hover {
+  background-color: #09f0e5;
+}
+
+.arrow-icon {
+  width: 12px;
+  /* Reduce icon size */
+  height: 12px;
+  /* Reduce icon size */
+  border-left: 3px solid #fff;
+  /* Better arrow appearance */
+  border-bottom: 3px solid #fff;
+  /* Better arrow appearance */
+  transform: rotate(135deg);
+  /* Rotate the arrow upwards */
+  position: relative;
+  display: block;
+}
+
+.scroll-to-top-text {
+  display: none;
+  margin-left: 4px;
+  /* Adjust spacing */
+  color: #fff;
+  font-size: 10px;
+  /* Smaller font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  transition: opacity 0.3s ease;
+  /* Fade-in effect */
+}
+
+.scroll-to-top:hover .scroll-to-top-text {
+  display: inline-block;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    bottom: -60px;
+    /* Button starts below the screen */
+  }
+
+  to {
+    opacity: 1;
+    bottom: 20px;
+    /* Button ends in final position */
+  }
+}
+
+.team {
+  padding: 80px 0;
+}
+
+.team .member {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team .member:hover {
+  transform: translateY(-5px);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .member-img img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team .member:hover .member-img img {
+  transform: scale(1.1);
+}
+
+.team .member .social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  /* Set initial opacity to 0 */
+  pointer-events: none;
+  /* Disable pointer events */
+
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  /* Set opacity to 1 on hover */
+  pointer-events: auto;
+  /* Enable pointer events on hover */
+}
+
+.team .member .social a {
+  margin: 0 5px;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.team .member .social a:hover {
+  color: #00ff59;
+}
+
+.team .member-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.team .member-info h4 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.team .member-info span {
+  display: block;
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.checkmark {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: #28a745;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  margin: 0 5px;
+}
+
+
+
+.section-title p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* إضافة تأثير الظل */
+
+  font-size: 50px;
+  color: #0c0d0d;
+}
+
+#cta {
+  background-image: url('../Assets/colourback_1006.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  /* تأكد من وضع العنصر بوضعية نسبية */
+  color: #fff;
+  /* لون النص */
+}
+
+#cta .text-center {
+  position: relative;
+  /* تأكد من وضع النص بوضعية نسبية بالنسبة للعنصر الأب */
+  z-index: 1;
+  /* تأكد من أن النص يظهر أعلى الصورة */
+}
+
+#cta h3 {
+  font-size: 36px;
+  /* حجم العنوان */
+  font-weight: bold;
+  /* وزن الخط */
+  margin-bottom: 20px;
+  /* هامش الأسفل للتباعد بين النص والفقرة */
+}
+
+#cta p {
+  font-size: 18px;
+  /* حجم الفقرة */
+  line-height: 1.6;
+  /* ارتفاع الخط */
+  margin-bottom: 20px;
+  /* هامش الأسفل للتباعد بين الفقرة وزر الدعوة للتفاعل */
+}
+
+.cta-btn {
+  display: inline-block;
+  /* يجعل الزر يظهر كمربع مستطيل */
+  color: #fff;
+  /* لون النص في الزر */
+  padding: 10px 20px;
+  /* هوامش الداخلية للزر */
+  border-radius: 5px;
+  /* شكل الحواف */
+  font-size: 18px;
+  /* حجم النص */
+  text-decoration: none;
+  /* إزالة التزيين للروابط */
+  transition: background-color 0.3s ease;
+  /* تغيير لون الخلفية بنعومة عند التحويل */
+}
+
+.cta-btn:hover {
+  background-color: #ffad1f;
+  /* تغيير لون الخلفية عند تحويل المؤشر */
+}
+
+.slide-subtitle {
+  font-size: 26px;
+  color: #ffe3e3;
+}

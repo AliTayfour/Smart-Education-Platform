@@ -1,0 +1,178 @@
+/* Global styles */
+
+
+/* Breadcrumb styles */
+.breadcrumb-wrapper {
+    position: relative;
+    overflow: hidden;
+    background-image: url('../Assets/0_YU4NVsbk3CC0_zrk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breadcrumb-wrapper h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 7%;
+}
+
+.breadcrumb-wrapper i {
+    color: #000000;
+}
+
+/* Filter section styles */
+.filter-section {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.filter-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.select-selected {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    appearance: none;
+}
+
+.select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+}
+
+.select-selected:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Filter toggle button styles */
+.filter-toggle {
+    position: relative;
+    margin-bottom: 10px;
+    left: 46%; /* تحديد موقع الزر على اليمين */
+    cursor: pointer;
+    background-color: #0ebc5a;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1;
+    top: calc(75% + 30px);
+    border-radius: 10px;
+    width: 120px; /* تعيين عرض ثابت */
+    text-align: center;
+}
+
+
+
+/* Filter dropdown styles */
+.filter-dropdown {
+    position: relative;
+    top: calc(75% + 30px);
+    left: 25%;
+    background-color: #ffffff;
+    border: 1px solid #0d0c0c;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+/* Show filter dropdown when toggle button is clicked */
+.filter-toggle:hover+.filter-dropdown,
+.filter-dropdown:hover {
+    display: block;
+}
+
+.filter-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.filter-dropdown label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px; /* تغيير حجم الخط */
+    font-weight: bold; /* تغيير الخط إلى مميز */
+
+}
+
+.filter-dropdown select {
+    width: 100%;
+    padding: 8px;
+    /* تغيير الحشو إذا رغبت */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    /* تغيير حجم الخط إذا رغبت */
+    color: #555;
+    /* تغيير لون الخط إذا رغبت */
+}
+
+/* .filter-dropdown select:focus {
+    outline: none;
+    border-color: #007bff;
+} */
+
+.filter-toggle i {
+    margin-right: 5px;
+}
+
+/* Title section styles */
+.title {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.content p {
+    text-align: left;
+    color: #333;
+}
+
+/* Course card styles */
+.blog-default-single-item .image-box {
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog-default-single-item .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-default-single-item .content {
+    text-align: left;
+}
+
+.blog-default-single-item {
+    margin-bottom: 30px;
+}
+.price{
+    color: rgb(236, 4, 4);
+    font-size: 14px;
+}

@@ -1,0 +1,165 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../Assets/1680colourback_2013.jpg');
+    /* Specify your distinctive background image */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.profile-container {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* Add position relative */
+
+}
+
+.profile-header {
+    position: absolute;
+    top: 0;
+    /* Adjust the top position to cover the top part of the form */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 123, 255, 0.7);
+    /* Transparent background with the same color */
+    color: #fff;
+    /* Header text color */
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    /* Rounded corners for the top */
+    z-index: z;
+    /* Ensure the header is on top of the form */
+
+}
+
+.profile-form {
+    width: 100%;
+    max-width: 500px;
+    /* Limit the form width */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    padding: 20px;
+    /* Add padding for better readability */
+    text-align: center;
+    /* Center align the form content */
+}
+
+
+.profile-container h2 {
+
+    margin-left: 46%;
+
+    color: #3c3a6f;
+    /* Header text color */
+    font-style: oblique;
+    z-index: z;
+
+
+
+}
+
+.profile-form .form-field {
+    margin-bottom: 20px;
+
+}
+
+.profile-form .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    /* Field label color */
+}
+
+.profile-form .form-field input[type="text"],
+.profile-form .form-field input[type="email"],
+.profile-form .form-field input[type="password"],
+.profile-form .form-field select {
+    width: calc(100% - 20px);
+    /* Adjusted width to accommodate icon */
+    padding: 15px;
+    /* Increased padding for input fields */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    /* Add a bottom border */
+    background-color: transparent;
+    /* Set background color to transparent */
+    font-size: 16px;
+    color: #333;
+    /* Text color */
+    outline: none;
+    /* Remove outline */
+    transition: border-bottom-color 0.3s ease;
+    /* Smooth transition for bottom border color */
+}
+
+.profile-form .form-field input[type="text"]:focus,
+.profile-form .form-field input[type="email"]:focus,
+.profile-form .form-field input[type="password"]:focus,
+.profile-form .form-field select:focus {
+    border-bottom-color: #007bff;
+    /* Change bottom border color on focus */
+}
+
+.profile-form .icon {
+
+    color: #007bff;
+    /* Icon color */
+}
+
+.profile-form .form-field .image-upload-label {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    /* Center the image horizontally */
+    display: block;
+    top: 20px
+}
+
+.profile-form .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    /* Rounded button */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.6s ease;
+    /* Smooth transition for background color */
+}
+
+.profile-form .submit-btn:hover {
+    background-color: #220044;
+    
+}
+
+.profile-back-btn,
+.profile-header .profile-register-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.6s ease;
+
+}
+
+.profile-header .profile-register-btn:hover {
+    background-color: #220044;
+}
+
+.profile-form p {
+    color: #000000;
+}

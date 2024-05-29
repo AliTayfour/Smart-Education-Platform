@@ -1,0 +1,128 @@
+/* Login.css */
+.login {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.login {
+    background-image: url("../Assets/rm222batch2-kul-27.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    flex: 1;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-section img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.login-form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.button:hover {
+    background-color: #c11ed6;
+}
+
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    /* إزالة الخط تحت الروابط */
+}
+
+button:hover {
+    background-color: #9e7fb4;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto; /* تعديل التباعد بين السهم وكلمة الرجوع */
+
+}
+
+.back-link {
+    order: 1; /* Places the back link at the start of the row */
+    margin-right: auto; /* Pushes the back link to the far left */
+    margin-top: 15px;
+}
+
+.button {
+    order: 2; /* Places the button at the end of the row */
+    /* Your existing button styles */
+}

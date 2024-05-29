@@ -1,0 +1,236 @@
+/* Register.css */
+.register {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+.register {
+    background-image: url("../Assets/25101.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.register-form legend {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.form-field {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-field input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.form-field i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.form-field label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+    background-color: #9e7fb4;
+}
+
+.register-form p {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-field input[type="file"] {
+    display: none;
+}
+
+.image-upload-label {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed #ccc;
+    /* تعديل هنا لإضافة حدود متقطعة */
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+    /* تحويل اللون عند التحويم */
+}
+
+.image-upload-label:hover {
+    border-color: #999;
+    /* تغيير لون الحدود عند التحويم بالماوس */
+    transform: scale(1.1);
+    /* تكبير الصندوق عند التحويم بالماوس */
+}
+
+.uploaded-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #999;
+}
+
+.upload-placeholder i {
+    margin-top: -5px;
+}
+
+.form-field .icon {
+    margin-right: 10px;
+    /* تغيير المسافة بين الأيقونة والحقل */
+}
+
+.register-form .gender-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.register-form .gender-label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-form .gender-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.register-form .gender-select-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #999;
+}
+
+.register-form .gender-select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: calc(100% - 25px);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+}
+
+.register-form .gender-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+/* Add this CSS code to style the user type selection */
+.register-form .user-type-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.register-form .user-type-label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-form .user-type-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.register-form .user-type-select-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #999;
+}
+
+.register-form .user-type-select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: calc(100% - 25px);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+}
+
+.register-form .user-type-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: #999;
+}

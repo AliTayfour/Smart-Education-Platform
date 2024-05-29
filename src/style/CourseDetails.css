@@ -1,0 +1,426 @@
+.course-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.course-details .container {
+    display: flex;
+    margin: 8%;
+    font-style: italic;
+    font-weight: 600;
+
+
+}
+
+.course-details .course-image {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    float: right;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20%;
+}
+
+.course-details .course-image:hover {
+    transform: scale(1.1);
+}
+
+.course-details .content {
+    width: 70%;
+    /* Adjusted width for the content */
+}
+
+.course-details h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-left: 3%;
+
+}
+
+
+.course-details .details-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    /* تباعد بين القائمة وباقي المحتوى */
+    font-style: italic;
+    font-weight: 600;
+}
+
+.course-details .details-list li {
+    color: #777;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.course-details .details-list li .icon {
+    margin-right: 10px;
+}
+
+.course-details .start-learning-btn {
+    background-color: #2047d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 20px;
+}
+
+.course-details .start-learning-btn:hover {
+    background-color: #150996;
+}
+
+.about-description {
+    background-color: #4c5883;
+
+}
+
+.about-content h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #111010;
+
+    
+
+}
+
+.about-content .description {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    white-space: pre-line;
+    overflow: auto;
+
+
+}
+
+
+
+
+
+
+/* //////////////////////// abut-course */
+
+.about-course {
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    overflow: hidden;
+    /* تجنب تكرار الصورة الخلفية */
+}
+
+.about-course .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-course .content {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    word-break: break-word;
+    margin-top: 50px;
+    /* تحديد المسافة بين الـ About وباقي المحتوى */
+}
+
+.about-course .content h3 {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    color: #111010;
+
+
+}
+
+.about-course .content ul.description {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content .description {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 30px;
+    white-space: pre-line;
+
+    max-height: 200px;
+}
+
+
+.about-course .content ul.description li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.about-course .content ul.description li:before {
+    content: "\f058";
+    font-family: "RemixIcons";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffbf00;
+}
+
+.about-course .content ul.description li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* ////////////////    reviews-section    ////////////////// */
+
+.reviews-section {
+    padding: 20px 0;
+    background-color: #4c5883;
+
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.review-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container h3 {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    color: #111010;
+
+
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating {
+    font-size: 14px;
+    color: #666;
+}
+
+.comment {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.filled-star {
+    color: gold;
+}
+
+.empty-star {
+    color: gray;
+}
+
+
+/* ////////////////    sections-section    ////////////////// */
+/* General styling */
+.about-section {
+    background-color: #cccccc;
+    padding: 50px 0;
+}
+
+.about-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section h3 {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    color: #111010;
+
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #514f4f;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.about-section p span.highlight {
+    background-color: #dbb84f;
+    /* لون خلفية التمييز */
+    color: #333;
+    /* لون النص */
+    padding: 2px 5px;
+    /* هوامش داخلية للتمييز */
+    border-radius: 3px;
+    /* تدوير الحواف */
+    font-weight: bold;
+    /* تحديد وزن الخط */
+}
+
+/* Section header */
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    
+}
+
+.section-header:hover {
+    background-color: #f5f5f5;
+}
+
+.section-header h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    
+}
+
+.section-header .icon {
+    font-size: 24px;
+    color: #555;
+}
+
+.section-header button {
+    font-size: 24px;
+    color: #28a745;
+    /* لون أيقونة الزائد */
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    outline: none;
+    
+    /* لإزالة التأثير الافتراضي عند التحديد */
+}
+
+.section-header button:hover {
+    color: #218838;
+    /* تغيير لون أيقونة الزائد عند التحويم */
+}
+
+.section-header button:focus {
+    box-shadow: 0 0 0 2px #714798;
+    /* تحديد هامش خارجي بلون مميز عند التأكيد */
+}
+
+
+
+.section-content.open {
+    display: block;
+}
+
+.section-content h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 15px;
+    
+}
+
+.section-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.section-content ul li {
+    font-size: 16px;
+    color: #504e4e;
+    margin-bottom: 10px;
+
+}
+
+.section-content ul li .icon {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.section-content ul li a.view-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* لإزالة التأثير الافتراضي للرابط */
+    margin-left: auto; /* تحديد الهامش الأيسر بقيمة الأوتو لتحقيق التمرير إلى اليمين */
+}
+
+
+.section-content ul li a.view-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Additional styling */
+.section-content ul li {
+    display: flex;
+    align-items: center;
+}
+
+.section-content ul li .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.section-content ul li button.view-btn {
+    margin-left: auto;
+}

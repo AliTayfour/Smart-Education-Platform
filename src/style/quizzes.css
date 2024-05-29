@@ -1,0 +1,125 @@
+.quiz-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.user-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info table {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.user-info table td {
+  padding: 10px;
+}
+
+.user-info table td:first-child {
+  font-weight: bold;
+  color: #333;
+  width: 30%;
+}
+
+.user-info table td:last-child {
+  color: #555;
+}
+
+.quiz-header {
+  width: 100%;
+  max-width: 800px;
+  /* Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quiz-sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #a5f3d0;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+}
+
+
+.quiz-sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.quiz-button {
+  color: rgb(19, 17, 17);
+  border: none;
+  border-radius: 7%;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  vertical-align: middle;
+}
+
+.quiz-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.quiz-main-content {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 50px;
+  /* Adjust as needed */
+}
+
+.quiz-table-container {
+  margin: 0 auto;
+}
+
+.quiz-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit-button,
+.reset-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+  background-color: #45a049;
+}
