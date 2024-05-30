@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Smart-Education-Platform/static/css/main.c429f63a.css",
-    "main.js": "/Smart-Education-Platform/static/js/main.1337c7c6.js",
-    "static/media/Wavy_Gen-01_Single-07.jpg": "/Smart-Education-Platform/static/media/Wavy_Gen-01_Single-07.682f79e4bfc76926b4f4.jpg",
-    "static/media/3d-rendering-bent-pencil-font-letter-s-pen-tool-created-clipping-path-included-jpeg-easy-composite.png": "/Smart-Education-Platform/static/media/3d-rendering-bent-pencil-font-letter-s-pen-tool-created-clipping-path-included-jpeg-easy-composite.328ec07e87fa1890fa9e.png",
-    "static/media/rm222batch2-kul-27.jpg": "/Smart-Education-Platform/static/media/rm222batch2-kul-27.d419e6110e519eecd70d.jpg",
-    "static/media/c++.jpg": "/Smart-Education-Platform/static/media/c++.9783a9e1d26f3ba6edbc.jpg",
-    "static/media/2150319873.jpg": "/Smart-Education-Platform/static/media/2150319873.16ded648837189bac456.jpg",
-    "static/media/25101.jpg": "/Smart-Education-Platform/static/media/25101.31263592959e7df87557.jpg",
-    "static/media/education-day-composition-with-graduation-cap.webp": "/Smart-Education-Platform/static/media/education-day-composition-with-graduation-cap.5163c0f793d83205b565.webp",
-    "static/media/hero-bg.jpg": "/Smart-Education-Platform/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
-    "static/media/1680colourback_2013.jpg": "/Smart-Education-Platform/static/media/1680colourback_2013.818a979c1b6a2b1dda76.jpg",
-    "static/media/colourback_1006.jpg": "/Smart-Education-Platform/static/media/colourback_1006.54dfd660b8467d7f8251.jpg",
-    "static/media/0_YU4NVsbk3CC0_zrk.jpg": "/Smart-Education-Platform/static/media/0_YU4NVsbk3CC0_zrk.7e4fbdae8d74fc4f46bb.jpg",
-    "static/media/testimonials-2.jpg": "/Smart-Education-Platform/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
-    "static/media/testimonials-1.jpg": "/Smart-Education-Platform/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
-    "static/media/testimonials-4.jpg": "/Smart-Education-Platform/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
-    "static/media/360_F_217635309_2xq6WZCveyhJNNoDHVAtjn6EFGHTcHrU.jpg": "/Smart-Education-Platform/static/media/360_F_217635309_2xq6WZCveyhJNNoDHVAtjn6EFGHTcHrU.d04a8da8849c98cebb8f.jpg",
-    "static/media/testimonials-3.jpg": "/Smart-Education-Platform/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
-    "index.html": "/Smart-Education-Platform/index.html",
-    "main.c429f63a.css.map": "/Smart-Education-Platform/static/css/main.c429f63a.css.map",
-    "main.1337c7c6.js.map": "/Smart-Education-Platform/static/js/main.1337c7c6.js.map"
+    "main.css": "/static/css/main.de904acd.css",
+    "main.js": "/static/js/main.639ff19f.js",
+    "static/media/Wavy_Gen-01_Single-07.jpg": "/static/media/Wavy_Gen-01_Single-07.682f79e4bfc76926b4f4.jpg",
+    "static/media/3d-rendering-bent-pencil-font-letter-s-pen-tool-created-clipping-path-included-jpeg-easy-composite.png": "/static/media/3d-rendering-bent-pencil-font-letter-s-pen-tool-created-clipping-path-included-jpeg-easy-composite.328ec07e87fa1890fa9e.png",
+    "static/media/rm222batch2-kul-27.jpg": "/static/media/rm222batch2-kul-27.d419e6110e519eecd70d.jpg",
+    "static/media/c++.jpg": "/static/media/c++.9783a9e1d26f3ba6edbc.jpg",
+    "static/media/2150319873.jpg": "/static/media/2150319873.16ded648837189bac456.jpg",
+    "static/media/25101.jpg": "/static/media/25101.31263592959e7df87557.jpg",
+    "static/media/education-day-composition-with-graduation-cap.webp": "/static/media/education-day-composition-with-graduation-cap.5163c0f793d83205b565.webp",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/1680colourback_2013.jpg": "/static/media/1680colourback_2013.818a979c1b6a2b1dda76.jpg",
+    "static/media/colourback_1006.jpg": "/static/media/colourback_1006.54dfd660b8467d7f8251.jpg",
+    "static/media/0_YU4NVsbk3CC0_zrk.jpg": "/static/media/0_YU4NVsbk3CC0_zrk.7e4fbdae8d74fc4f46bb.jpg",
+    "static/media/testimonials-2.jpg": "/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
+    "static/media/testimonials-1.jpg": "/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
+    "static/media/testimonials-4.jpg": "/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "static/media/360_F_217635309_2xq6WZCveyhJNNoDHVAtjn6EFGHTcHrU.jpg": "/static/media/360_F_217635309_2xq6WZCveyhJNNoDHVAtjn6EFGHTcHrU.d04a8da8849c98cebb8f.jpg",
+    "static/media/testimonials-3.jpg": "/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
+    "index.html": "/index.html",
+    "main.de904acd.css.map": "/static/css/main.de904acd.css.map",
+    "main.639ff19f.js.map": "/static/js/main.639ff19f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c429f63a.css",
-    "static/js/main.1337c7c6.js"
+    "static/css/main.de904acd.css",
+    "static/js/main.639ff19f.js"
   ]
 }
